@@ -8,3 +8,9 @@ I want to stop filling workstation with unnedded packages, configuration and ser
 ## Why `almost full` ?
 Some settings are still needed on the host machines ( firewall rule, IF setup etc.)
 But they are described in README files and in future in run scripts.
+
+# Debugging
+```
+# iptables -S | less
+# tcpdump -i enp0s8
+```
